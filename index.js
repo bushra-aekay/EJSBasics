@@ -7,8 +7,8 @@ const app = express();
 const port = 3000;
 
 
-// var date = new Date(); //gets current date and storing in var date.
-var date = new Date("June 24, 2023 11:13:00");
+var date = new Date(); //gets current date and storing in var date.
+// var date = new Date("June 24, 2023 11:13:00"); //assigning a custom date
 var day = date.getDay(); //method to get the day of the date returned above and stores in var called day.
 console.log(day);
 
